@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Banner1 from "../../Assets/Projects/Banner1.jpg";
+import Banner2 from "../../Assets/Projects/Banner2.jpg";
+import Banner3 from "../../Assets/Projects/Banner3.png";
+import Banner4 from "../../Assets/Projects/Banner4.png";
+import Banner5 from "../../Assets/Projects/Banner5.jpg";
 
 function Projects() {
   return (
@@ -23,68 +22,58 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Banner1}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Voice & Text Translater"
+              description="If you are looking for a translator, that quickly and accurately translate any text, voice, photo & picture from a foreign one to your native language or vice versa, this one is for you. You don’t need the help of a live translator anymore! Feel free to translater a spanish, russian, italian, japanese, french, portuguese and more than 50 languages."
+              ghLink=""
+              demoLink="https://codecanyon.net/item/voice-text-translater-android-multi-languagetranslator-admob/45959544"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Banner2}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Cam Scanner"
+              description="Are you looking for AI scanner app to replace CamScanner? Use Cam Scanner features to handle your paperwork with ease. Say goodbye to huge and ugly copy machines and get this ultra-fast scanner app for free now."
+              ghLink=""
+              demoLink="https://codecanyon.net/item/cam-scanner-2023-smart-android-app-with-admob-ads/46414020"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Banner3}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Anywhere GPT"
+              description="Anywhere GPT sounds like a revolutionary mobile app that can significantly enhance productivity and provide seamless AI assistance. Its salient features make it a versatile tool for a wide range of tasks, making it appealing to individuals who rely heavily on their phones for communication and work."
+              ghLink=""
+              demoLink="https://codecanyon.net/item/anywhere-gpt-seamless-ai-assistance-at-your-fingertips/47222402"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={Banner4}
               isBlog={false}
-              title="Plant AI"
+              title="Change Detection"
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              ghLink=""
+              demoLink="https://codecanyon.net/item/change-detection-detect-website-usage-data/47437005"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={Banner5}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="SDK Monitor"
+              description="A list of all installed apps that were downloaded from Play Store.
+              A settings view, that allows user to toggle auto-sync on/off and configure what is required for a sync to occur.
+              [Eventually] The plan is to have a filter screen (sort by name/last update/targetSDK value) and an about screen."
+              ghLink=""
+              demoLink="https://codecanyon.net/item/sdk-monitor-detect-app-updates/47513470"
             />
           </Col>
         </Row>
